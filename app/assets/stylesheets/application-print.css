@@ -1,0 +1,7 @@
+
+/*
+ * application-print.css
+ * Styles for print media
+ *= require ./blueprint/print
+ *= require_self
+*/
