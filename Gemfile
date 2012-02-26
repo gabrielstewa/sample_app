@@ -10,6 +10,7 @@ gem 'sqlite3'
 
 group :development do
 	 gem "rspec-rails", "~> 2.6"
+gem 'annotate', '2.4.1.beta1'
 end
 
 group :test do
@@ -17,6 +18,10 @@ group :test do
 	gem 'webrat'
 end
 
+#group :production do
+  # gems specifically for Heroku go here
+ # gem "pg"
+#end
 
 
 
