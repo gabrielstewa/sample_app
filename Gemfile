@@ -10,12 +10,13 @@ gem 'sqlite3'
 
 group :development do
 	 gem "rspec-rails", "~> 2.6"
-gem 'annotate', '2.4.1.beta1'
+	gem 'annotate', '2.4.1.beta1'
 end
 
 group :test do
 	 gem "rspec-rails", "~> 2.6"
 	gem 'webrat'
+	gem 'factory_girl_rails'
 end
 
 #group :production do
